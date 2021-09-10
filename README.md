@@ -9,3 +9,5 @@ To insert an IP address, call object->request_handled($ip) , where $ip is the IP
 To get Top 100 common IPs, call object->top100(), response comes back as a array of 100 objects in descending order of occurrence.
 
 To clear the data for a previous date, call object->clear(). This resets all the data for the previous date.
+
+Note: I have written a random IP freq increment logic also that is not in the scope of the task, but just for my testing purposes.
